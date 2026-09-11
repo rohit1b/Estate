@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Award, Users2, ShieldCheck, Star, ThumbsUp, Heart, TrendingUp, CheckCircle } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 
-const API_URL = "http://localhost:5000/api/benefits";
+const API_URL = "https://estate-backend-k3sh.onrender.com/api/benefits";
 
 const ICON_MAP = {
   Award: Award,

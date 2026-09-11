@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { ArrowUpRight, Check, MapPin } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 
-const API_URL = "http://localhost:5000/api/properties";
-const BACKEND_URL = "http://localhost:5000";
+const API_URL = "https://estate-backend-k3sh.onrender.com/api/properties";
+const BACKEND_URL = "https://estate-backend-k3sh.onrender.com";
 
 export default function Properties() {
   const { token, canEdit } = useAuth();

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
 
-const API_URL = "http://localhost:5000/api/cities";
-const BACKEND_URL = "http://localhost:5000";
+const API_URL = "https://estate-backend-k3sh.onrender.com/api/cities";
+const BACKEND_URL = "https://estate-backend-k3sh.onrender.com";
 
 const CITY_OPTIONS = [
   "Gurugram",

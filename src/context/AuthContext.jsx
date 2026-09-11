@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext();
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://estate-backend-k3sh.onrender.com/api/auth";
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
